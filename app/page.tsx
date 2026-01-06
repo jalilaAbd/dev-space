@@ -1,9 +1,14 @@
-import React from 'react'
+import ExploreBtn from "@/components/ExploreBtn";
+import React from "react";
 
 const Page = () => {
   return (
-    <h1>dev-space</h1>
-  )
-}
+    <section>
+      <h1 className="text-center">Where Tech Minds Unite</h1>
+      <p>Hackathons, Meetups, and Conferences, All in One Place</p>
+      <ExploreBtn />
+    </section>
+  );
+};
 
-export default Page
+export default Page;
